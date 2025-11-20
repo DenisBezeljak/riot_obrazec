@@ -39,20 +39,32 @@
       yearSelect.appendChild(option);
     }
 
-    
     // Login form submission
     document.getElementById('login').addEventListener('submit', e => {
       e.preventDefault();
       const user = document.getElementById('login-username').value.trim();
       const pass = document.getElementById('login-password').value.trim();
       if (!user || !pass) {
-        Swal.fire('Error', 'Please enter both username and password.', 'error');
+        Swal.fire({
+          title: 'Error',
+          text: 'Please enter both username and password.',
+          icon: 'error',
+          background: '#010a13',
+          color: '#f0e6d2',
+          confirmButtonColor: '#c89b3c'
+        });
         return;
       }
-      Swal.fire('Success', `Welcome back, ${user}!`, 'success');
+      Swal.fire({
+        title: 'Success',
+        text: `Welcome back, ${user}!`,
+        icon: 'success',
+        background: '#010a13',
+        color: '#f0e6d2',
+        confirmButtonColor: '#c89b3c'
+      });
       e.target.reset();
     });
-
 
     // Register form submission
     document.getElementById('register').addEventListener('submit', e => {
@@ -67,25 +79,70 @@
       const region = document.getElementById('register-region').value;
       const terms = document.getElementById('terms').checked;
 
-
       if (!user || !email || !pass || !confirm || !month || !day || !year || !region) {
-        Swal.fire('Error', 'Please fill out all fields.', 'error');
+        Swal.fire({
+          title: 'Error',
+          text: 'Please fill out all fields.',
+          icon: 'error',
+          background: '#010a13',
+          color: '#f0e6d2',
+          confirmButtonColor: '#c89b3c'
+        });
         return;
       }
 
-  
-
       if (pass !== confirm) {
-        Swal.fire('Error', 'Passwords do not match.', 'error');
+        Swal.fire({
+          title: 'Error',
+          text: 'Passwords do not match.',
+          icon: 'error',
+          background: '#010a13',
+          color: '#f0e6d2',
+          confirmButtonColor: '#c89b3c'
+        });
         return;
       }
 
       if (!terms) {
-        Swal.fire('Error', 'You must agree to the Terms of Service.', 'error');
+        Swal.fire({
+          title: 'Error',
+          text: 'You must agree to the Terms of Service.',
+          icon: 'error',
+          background: '#010a13',
+          color: '#f0e6d2',
+          confirmButtonColor: '#c89b3c'
+        });
         return;
       }
 
-      Swal.fire('Success', `Account created for ${user}!`, 'success');
+      Swal.fire({
+        title: 'Success',
+        text: `Account created for ${user}!`,
+        icon: 'success',
+        background: '#010a13',
+        color: '#f0e6d2',
+        confirmButtonColor: '#c89b3c'
+      });
       e.target.reset();
       document.querySelector('.tab[data-tab="login"]').click();
+    });
+
+    // Credits
+    document.getElementById('show-credits').addEventListener('click', (e) => {
+      e.preventDefault();
+
+      Swal.fire({
+        title: 'Credits',
+        html: `
+          <p style="font-size: 16px;">
+            Website redesign and implementation by<br>
+            <strong>Denis Bezeljak – Class 4.Rb</strong>
+          </p>
+        `,
+        icon: 'info',
+        confirmButtonText: 'OK',
+        background: '#010a13',
+        color: '#c89b3c',
+        confirmButtonColor: '#c89b3c'
+      });
     });
