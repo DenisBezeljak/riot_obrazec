@@ -1,6 +1,5 @@
 <h1 align="center">Riot Games Login/Registration Page</h1>
 
-
 This project simulates the login and registration system for **Riot Games**, designed with a modern, responsive user interface. It utilizes HTML, CSS, and JavaScript for dynamic functionality such as form validation, tab switching, and interactive notifications using SweetAlert2.
 
 ---
@@ -19,13 +18,19 @@ This project simulates the login and registration system for **Riot Games**, des
 ## Demo Preview
 
 ### **Login Form**
-![Login Form](images/login.png)
+<p align="center">
+  <img src="images/login.png" alt="Login Form">
+</p>
 
 ### **Registration Form**
-![Registration Form](images/register.png)
+<p align="center">
+  <img src="images/register.png" alt="Registration Form">
+</p>
 
 ### **Success Notification**
-![Success Notification](images/success.png)
+<p align="center">
+  <img src="images/success.png" alt="Success Notification">
+</p>
 
 ---
 
@@ -47,8 +52,3 @@ Simply open the `index.html` file in any modern browser to preview the login and
 ## License
 
 This project is provided under the MIT License. Feel free to modify and use as needed.
-
-
-
-
-
