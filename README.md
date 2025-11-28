@@ -1,4 +1,5 @@
-        # Riot Games Login/Registration Page
+<h1 align="center">Riot Games Login/Registration Page</h1>
+
 
 This project simulates the login and registration system for **Riot Games**, designed with a modern, responsive user interface. It utilizes HTML, CSS, and JavaScript for dynamic functionality such as form validation, tab switching, and interactive notifications using SweetAlert2.
 
