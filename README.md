@@ -18,19 +18,22 @@ This project simulates the login and registration system for **Riot Games**, des
 ## Demo Preview
 
 ### **Login Form**
-<p align="left">
-  <img src="images/login.png" alt="Login Form">
-</p>
-
-### **Registration Form**
-<p align="left">
-  <img src="images/register.png" alt="Registration Form">
-</p>
-
-### **Success Notification**
-<p align="left">
+<p align="center">
+  <img src="images/login.png" alt="Login Form" style="margin-right: 20px;">
+  <img src="images/register.png" alt="Registration Form" style="margin-right: 20px;">
   <img src="images/success.png" alt="Success Notification">
 </p>
+
+---
+
+## Important Information for Login:
+
+In order to pass through the login form and access the system, you need to use the following credentials:
+
+- **Username**: `RiotAdmin`
+- **Password**: `DragonFire!2025`
+
+These are the **only valid credentials** to successfully log in to the system. Any other username or password will trigger an error.
 
 ---
 
