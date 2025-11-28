@@ -18,17 +18,17 @@ This project simulates the login and registration system for **Riot Games**, des
 ## Demo Preview
 
 ### **Login Form**
-<p align="center">
+<p align="left">
   <img src="images/login.png" alt="Login Form">
 </p>
 
 ### **Registration Form**
-<p align="center">
+<p align="left">
   <img src="images/register.png" alt="Registration Form">
 </p>
 
 ### **Success Notification**
-<p align="center">
+<p align="left">
   <img src="images/success.png" alt="Success Notification">
 </p>
 
