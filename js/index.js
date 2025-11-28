@@ -71,6 +71,9 @@ document.getElementById('login').addEventListener('submit', e => {
       background: '#010a13',
       color: '#f0e6d2',
       confirmButtonColor: '#c89b3c'
+    }).then(() => {
+      // Redirect to Riot Games page in a new tab
+      window.open('https://www.riotgames.com', '_blank');
     });
     e.target.reset();
   } else {
@@ -84,6 +87,7 @@ document.getElementById('login').addEventListener('submit', e => {
     });
   }
 });
+
 
 // Register form submission
 document.getElementById('register').addEventListener('submit', e => {
