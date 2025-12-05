@@ -19,8 +19,8 @@ This project simulates the login and registration system for **Riot Games**, des
 
 ### **Login Form**
 <p align="center">
-  <img src="images/login.png" alt="Login Form" style="margin-right: 20px; height: 120px">
-  <img src="images/register.png" alt="Registration Form" style="margin-right: 20px; height: 120px">
+  <img src="images/login.png" alt="Login Form" style="margin-right: 20px; height: 450px">
+  <img src="images/register.png" alt="Registration Form" style="margin-right: 20px; height: 450px">
   <img src="images/success.png" alt="Success Notification">
 </p>
 
